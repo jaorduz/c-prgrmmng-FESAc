@@ -1,0 +1,71 @@
+//****************************************************************************
+
+// 6)
+
+Implementa una de las siguientes funciones en un archivo de no mas de 30 lineas de codigo.
+
+		fputs
+		fwrite
+		fprintf
+		
+	y usa, al menos, una de las siguientes funciones:
+		fgetc
+		fgets
+		fread
+
+
+//****************************************************************************
+
+// 5)
+
+Escriba un codigo que muestre un calendario, similar al calendario 
+que muestra una computadora. Es importante que use funciones creadas por el usuario.
+Evite las funciones de biblioteca.
+
+
+//****************************************************************************
+
+// 4)
+
+Escriba un codigo que tome una letra (mayuscula o minuscula) y le indique si 
+es una vocal, el tal caso que escriba en pantalla si 
+es vocal abierta o cerrada. Implemente 
+una switch con cinco casos y un if-else para 
+escribir en pantalla el tipo de vocal. 
+
+
+//****************************************************************************
+// 3)
+Escribe un programa que muestre tu apellido con algún caracter, ejemplo:
+
+*****  *****  ****   *   *  *****
+*   *  *   *  *   *  *   *    *
+*   *  * *    *   *  *   *   *
+*   *  *  *   *  *   *   *  *
+*****  *   *  ***    *****  *****
+
+
+
+//****************************************************************************
+// 2)
+
+// Descarga el siguiente archivo y observa su salida. Descrubre qué sucede
+// si cambias los números que se encuentran entre los paréntesis.
+
+#include <stdio.h>
+
+int main(){
+
+char palabras[]="Carrera de Matematicas Aplicadas y Computacion";
+
+printf("%s %s\n", palabras, &palabras[8]);
+puts(palabras);
+puts(&palabras[11]);
+return 0;
+}
+
+//****************************************************************************
+// 1)
+
+Para el archivo de números primos debes implementar para que el programa funcione en 
+el dominio [1,10], [1,15] y [1,50]; después para todos los números pares e impares.
